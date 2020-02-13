@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: url("img/big-perfume.png");
+    background-color:#f4f4f4; 
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right bottom;
+    
+}
+#perfum{
+    width: 300px;
+    /* height: 100%; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(37, 36, 36);
+}
+#header{
+    width: 300px;
+    position: fixed;
+    text-align: center;
+}
+#menu{
+    margin: 60px 0;
+    width: 300px;
+    text-align: center; 
+}
+#menu ul li{
+    padding-bottom: 10px;
+}
+#menu ul li a{
+    height: 30px;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+}
+#menu ul li a:hover{
+    background-color: gray;
+    /* width: 300px; */
+}
+.sub_menu{
+    margin: 20px 0;
+}
+#main_img {
+    margin-left: 320px;
+    text-align: center;
+}
+#main_img img{
+    margin: 10px auto;
+}
+#main_img p{
+    font-size: 15px;
+}
+#main_img li{
+    margin: 10px;
+    float: left;
+    background-color:white ;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) ;
+}
+#main_img li p{
+    text-align: center;
+}
+#main_img li p:first-child{
+    color: rgb(158, 0, 150);
+    font-weight: bold;
+}

@@ -1,0 +1,217 @@
+/* 태블릿CSS 786px~1024px  */
+@media all and (min-width:501px) and (max-width:1024px){
+    #main{
+        width: 648px;
+        margin: 0 auto;
+        padding-top: 100px;
+        margin-bottom: 49px;
+    }
+    #main img{
+        width: 650px;
+    }
+    #main img{
+        animation: rrr infinite 3s alternate;
+    }
+    @keyframes rrr{
+        0%{
+            transform:rotate(-10deg);
+        }
+        /* 50%{
+            transform:rotate(0deg);
+        } */
+        100%{
+            transform:rotate(5deg);
+        }
+    }
+#footer ul li a>img{
+    width: 100px;
+    height: 100px;
+}
+#footer ul li{
+    float: left;
+    margin-left: 110px;
+}
+#footer ul li ul{
+    margin-left: -200px;
+    margin-top: -180px;
+    display: none;
+}
+#footer ul li ul li{
+    position: relative;
+}
+#footer ul li ul li p{
+    font-size: 20px;
+}
+#footer>ul>li:hover ul{
+    display: block;
+    transition: linear;
+}
+#footer .ani{
+    transform: rotate(0);
+    transition: all 0.5s linear;
+}
+#footer .ani1{
+    transform: rotate(0);
+    transition: all 0.5s linear;
+}
+#footer>ul>li:hover .ani{
+    transform: rotate(15deg);
+}
+#footer>ul>li:hover .ani1{
+    transform: rotate(-15deg);
+}
+/* ===========section2 태블릿pc =====================*/
+
+#section2 #skill ul li{
+    margin-left: 40px;
+}
+#section2 #skill ul li img{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+#section2 #footer{
+    padding-top: 127px;
+}
+
+/* ===========section3 태블릿pc =====================*/
+#section3 #menu>ul{    
+    padding-top: 22px;
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+}
+#section3 #menu ul li a>img{
+    width: 150px;
+    height: 150px;
+}
+#section3 #menu ul li{
+    margin-left: 120px;
+    float: left;
+    height: 200px;
+}
+#section3 #menu ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+#section3 #menu ul li ul{
+    display: none;
+}
+#section3 #menu ul li ul li{
+    position: relative;
+}
+#section3 #menu ul li ul li p{
+    font-family: 'Gaegu', cursive;
+    position: absolute;
+    top: -125px;
+    left: -80px;
+    font-size: 28px;
+    font-weight: bold;
+}
+#section3 #menu>ul>li:hover ul{
+    display: block;
+    transition: linear;
+}
+#section3 #menu ul li ul li img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: -196px;
+    left: -121px;
+}
+#section3>#menu>ul>li ul li .text1{
+    font-size: 32px;
+    top: -100px;
+}
+#section3 #footer{
+    margin-top: 105px;
+}
+
+/* ===========section4태블릿pc =====================*/
+#section4 #canvas{
+    width: 380px;
+    height: 500px;
+}
+
+#section4 #lsk .slider_img{
+    float: left;
+    width: 380px;
+    height: 500px;
+}
+#section4 #prev{
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    height: 500px;
+    line-height: 500px;
+}
+#section4 #next{
+    height: 500px;
+    line-height: 500px;
+}
+#section4 #button{
+    width: 400px;
+    margin-left: 100px;
+}
+#section4 #button a{
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 45px;
+    color: white;
+    font-weight: bold;
+}
+#section4{
+    position: relative;
+}
+#section4 #last_text{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 130px;
+    left: 550px;
+}
+#section4 #last_text h1{
+    margin: 10px 0;
+    margin-left: 40px;
+    font-size: 40px;
+}
+#section4 .textbox{
+    float: left;
+}
+#section4 .textbox>li{
+    padding: 5px;
+    font-size: 20px;
+}
+#section4 .input_box{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+#section4 .input_box>li{
+    font-size: 20px;
+    padding: 5px;
+}
+#section4 .input_box li:nth-child(2) input{
+    width: 50px;
+}
+#section4 .input_box li textarea{
+    width: 200px;
+}
+#section4 #lastimg_1{
+    position: absolute;
+    top: 10px;
+    left: 66%;
+}
+#section4 #footer{
+    position: absolute;
+    top: 642px;
+}
+#section4 #last_text .btn>input{
+    float: left;
+    margin-left: 330px;
+    padding: 5px 10px;
+}
+#section4 #footer{
+    margin-top: -15px;
+}
+}
